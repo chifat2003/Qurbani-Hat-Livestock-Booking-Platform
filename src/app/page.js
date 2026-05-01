@@ -1,9 +1,20 @@
 import Image from "next/image";
+import HeroHome from "./component/home/hero";
+import CardContainer from "./component/home/cardcontainer";
+import Tips from "./component/home/tips";
+import BuyTips from "./component/home/buy-tips";
+import Sats from "./component/home/sats";
+import Topbreads from "./component/home/topbreads";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-center text-3xl font-bold">Qurbani Hat</h1>
+      <HeroHome></HeroHome>
+      <Sats></Sats>
+      <CardContainer></CardContainer>
+      <Tips></Tips>
+      <Topbreads></Topbreads>
+      <BuyTips></BuyTips>
     </div>
   );
 }

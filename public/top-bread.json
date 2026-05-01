@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "breed_name": "Local Deshi",
+        "origin": "Bangladesh",
+        "popularity": "High",
+        "best_for": "Meat quality and affordability",
+        "average_weight_kg": 250,
+        "average_price_bdt": 100000,
+        "category": "Cattle"
+    },
+    {
+        "id": 2,
+        "breed_name": "Brahman Cross",
+        "origin": "USA/Bangladesh",
+        "popularity": "High",
+        "best_for": "Large weight and muscular structure",
+        "average_weight_kg": 450,
+        "average_price_bdt": 220000,
+        "category": "Cattle"
+    },
+    {
+        "id": 3,
+        "breed_name": "Sahiwal",
+        "origin": "India/Pakistan",
+        "popularity": "High",
+        "best_for": "High-end buyers and distinct appearance",
+        "average_weight_kg": 550,
+        "average_price_bdt": 280000,
+        "category": "Cattle"
+    },
+    {
+        "id": 4,
+        "breed_name": "Black Bengal",
+        "origin": "Bangladesh",
+        "popularity": "Universal",
+        "best_for": "Single share or small family Qurbani",
+        "average_weight_kg": 25,
+        "average_price_bdt": 25000,
+        "category": "Goat"
+    },
+    {
+        "id": 5,
+        "breed_name": "Jamunapari",
+        "origin": "India",
+        "popularity": "High",
+        "best_for": "Height and impressive visual appeal",
+        "average_weight_kg": 50,
+        "average_price_bdt": 45000,
+        "category": "Goat"
+    },
+    {
+        "id": 6,
+        "breed_name": "Holstein Friesian (HF) Cross",
+        "origin": "Netherlands/Australia Cross",
+        "popularity": "Medium",
+        "best_for": "Maximum weight and massive scale",
+        "average_weight_kg": 650,
+        "average_price_bdt": 350000,
+        "category": "Cattle"
+    }
+]
