@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroHome from "./component/home/hero";
 import CardContainer from "./component/home/cardcontainer";
 import Tips from "./component/home/tips";
@@ -15,6 +14,7 @@ export default function Home() {
       <Tips></Tips>
       <Topbreads></Topbreads>
       <BuyTips></BuyTips>
+
     </div>
   );
 }
