@@ -1,5 +1,5 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 
 const Card = async () => {
     const res = await fetch('https://qurbani-hat-inky.vercel.app/data.json');
@@ -7,11 +7,11 @@ const Card = async () => {
     console.log(data);
     return (
         
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
             {data.map((item) => (
                             <div key={item.id} className="card bg-base-100 w-96 shadow-sm">
                 <figure className="px-10 pt-10">
-                    <Image
+                    <img
                         src={item.image}
                         alt="Shoes"
                         className="rounded-xl"

@@ -9,7 +9,7 @@
         "age": 3,
         "location": "Bogura",
         "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural organic food.",
-        "image": "https://thumbs.dreamstime.com/b/goat-lake-outdoor-39334498.jpg?w=768",
+        "image": "https://lalteerlivestock.com/wp-content/uploads/2022/09/28.-17SL0025-SAM-1.jpg",
         "category": "Large Animal"
     },
     {
@@ -22,7 +22,7 @@
         "age": 2.5,
         "location": "Chittagong",
         "description": "Premium Red Chittagong Bull, famous for meat quality and religious preference.",
-            "image": "https://thumbs.dreamstime.com/b/goat-lake-outdoor-39334498.jpg?w=768",
+            "image": "https://lalteerlivestock.com/wp-content/uploads/2022/10/35.-20RC0026-ROBERT-1-2.jpg",
             "category": "Large Animal"
     },
     {
@@ -35,7 +35,7 @@
         "age": 1.5,
         "location": "Kushtia",
         "description": "Pure Black Bengal goat. Very active and healthy, perfect for a single person Qurbani.",
-        "image": "https://thumbs.dreamstime.com/b/goat-lake-outdoor-39334498.jpg?w=768",
+        "image": "https://5.imimg.com/data5/JC/RR/MY-44781692/black-bengal-goat-1000x1000.jpg",
         "category": "Small Animal"
     },
     {
@@ -48,7 +48,111 @@
         "age": 3,
         "location": "Pabna",
         "description": "Heavyweight Brahman cross bull. Massive structure and excellent health condition.",
-        "image": "https://thumbs.dreamstime.com/b/goat-lake-outdoor-39334498.jpg?w=768",
+        "image": "https://brcranch.com/wp-content/uploads/2024/03/BRC-Money-Dont-Jiggle-240-735x490.jpg",
         "category": "Large Animal"
+    },
+    {
+        "id": 5,
+        "name": "Jamunapari Goat",
+        "type": "Goat",
+        "breed": "Jamunapari",
+        "price": 45000,
+        "weight": 45,
+        "age": 2,
+        "location": "Rajshahi",
+        "description": "Large size Jamunapari goat with beautiful long ears and healthy coat.",
+        "image": "https://alchetron.com/cdn/jamnapari-goat-0daec480-6853-4ce6-b336-aad5cb0a958-resize-750.jpeg",
+        "category": "Small Animal"
+    },
+    {
+        "id": 6,
+        "name": "Haryana Bull",
+        "type": "Cow",
+        "breed": "Haryana",
+        "price": 180000,
+        "weight": 380,
+        "age": 3.5,
+        "location": "Sirajganj",
+        "description": "White Haryana breed bull. Known for its strong build and pure white appearance.",
+        "image": "https://abcsalon.org/wp-content/webp-express/webp-images/uploads/2022/12/HN-21088-1-scaled.jpg.webp",
+        "category": "Large Animal"
+    },
+    {
+        "id": 7,
+        "name": "Sahiwal Bull",
+        "type": "Cow",
+        "breed": "Sahiwal",
+        "price": 275000,
+        "weight": 520,
+        "age": 4,
+        "location": "Dhaka",
+        "description": "Magnificent Sahiwal bull with a distinct hump and glossy brown skin.",
+        "image": "https://lalteerlivestock.com/wp-content/uploads/2022/10/28.-17SL0025-SAM-2-1.jpg",
+        "category": "Large Animal"
+    },
+    {
+        "id": 8,
+        "name": "Mundi Goat",
+        "type": "Goat",
+        "breed": "Mundi",
+        "price": 32000,
+        "weight": 35,
+        "age": 2,
+        "location": "Rangpur",
+        "description": "Healthy Mundi goat with strong bones and high meat yield ratio.",
+        "image": "https://static.wixstatic.com/media/90a441_7189b15a135b40ccbccae7fe3dd7b459~mv2.jpg/v1/fill/w_610,h_458,al_c,lg_1,q_80,enc_avif,quality_auto/90a441_7189b15a135b40ccbccae7fe3dd7b459~mv2.jpg",
+        "category": "Small Animal"
+    },
+    {
+        "id": 9,
+        "name": "Australian Cross",
+        "type": "Cow",
+        "breed": "HF Cross",
+        "price": 350000,
+        "weight": 650,
+        "age": 3,
+        "location": "Gazipur",
+        "description": "Elite Australian Holstein Friesian cross. High-performance breed for large families.",
+        "image": "https://licnz.com/wp-content/uploads/2024/06/image003-1536x1024.jpg",
+        "category": "Large Animal"
+    },
+    {
+        "id": 10,
+        "name": "Beetal Goat",
+        "type": "Goat",
+        "breed": "Beetal",
+        "price": 55000,
+        "weight": 55,
+        "age": 2.5,
+        "location": "Barishal",
+        "description": "Large Beetal goat, well-known for its impressive size and height.",
+        "image": "https://goatwala.com/wp-content/uploads/photo-gallery/goatwala-beetal-male2.jpeg?bwg=1756753669",
+        "category": "Small Animal"
+    },
+    {
+        "id": 11,
+        "name": "Gir Bull",
+        "type": "Cow",
+        "breed": "Gir",
+        "price": 420000,
+        "weight": 700,
+        "age": 4,
+        "location": "Manikganj",
+        "description": "Majestic Gir bull with rounded forehead and long, pendulous ears.",
+        "image": "https://sagbidaj.org/wp-content/webp-express/webp-images/uploads/2023/01/GR-10084-2.jpg.webp",
+        "category": "Large Animal"
+    },
+    {
+        "id": 12,
+        "name": "Khashi Goat",
+        "type": "Goat",
+        "breed": "Local Khashi",
+        "price": 18000,
+        "weight": 18,
+        "age": 1,
+        "location": "Sylhet",
+        "description": "Affordable local Khashi goat, organic fed and highly energetic.",
+        "image": "https://tiimg.tistatic.com/fp/1/007/705/fresh-and-healthy-rich-protein-loaded-high-nutritious-goat-meat-874.jpg",
+        "category": "Small Animal"
     }
 ]
