@@ -1,7 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Tips = () => {
+const Tips = async() => {
+    const res = await fetch('https://qurbani-hat-inky.vercel.app/tips.json');
+    const tips = await res.json();
+
     return (
         <div>
             <div className="hero bg-base-200 min-h-screen">
@@ -14,8 +17,9 @@ const Tips = () => {
                     />
                     <div>
                         <h1 className="text-5xl font-bold text-green-700">কুরবানী কবুল যোগ্য করার উপায়</h1>
-                        <p className="py-6 text-green-700">
-                        </p>
+                        {tips.map((tip) => (
+                            <p key={tip.id} className="py-6 text-lg text-gray-700">{tip.id}<span className="font-bold mx-1"></span> {tip.tip_bangla}</p>
+                        ))}
                     </div>
                 </div>
             </div>

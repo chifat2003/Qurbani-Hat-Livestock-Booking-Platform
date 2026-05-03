@@ -1,29 +1,27 @@
 import React from 'react';
 
-const Topbreads = () => {
+const Topbreads = async () => {
+        const res = await fetch('https://qurbani-hat-inky.vercel.app/top-bread.json');
+    const breads = await res.json();
+    
     return (
-        <div className='container mx-auto my-10 '>
-            <h2 className="text-3xl font-bold mb-4 text-center text-green-700">Top Breads</h2>
-            <div className='flex justify-center'>
-
-                <div className='grid gap-6 lg:grid-cols-3 sm:grid-cols-1'>
-
-                    <div className="card bg-base-100 w-96 shadow-sm">
-                        <div className="card-body">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        </div>
-                        <figure>
-                            <img
-                                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                alt="Shoes" />
-                        </figure>
-                    </div>
-
-
-                </div>
+        <div className=' container mx-auto my-10'>
+            <div>
+                <h2 className='text-center font-semibold text-3xl text-green-700'>Top Breads</h2>
             </div>
-
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10'>
+            {breads.map((bread) => (
+                <div className='flex'>
+                {/* <img key={bread.id} src={bread.image} alt={bread.breed_name} className='w-full h-64 object-cover rounded-lg shadow-md mb-4' /> */}
+                <div>
+                    <h3 className='text-xl font-semibold text-green-700'>{bread.breed_name}</h3>
+                    <p className='text-gray-700'>{bread.description}</p>
+                    <p><span className='font-bold'>Origin:</span> {bread.origin}</p>
+                    <p><span className='font-bold'>Best for:</span> {bread.best_for}</p>
+                </div>
+                </div>
+            ))}
+            </div>
         </div>
     );
 };
