@@ -22,9 +22,9 @@ const Navbar = () => {
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             {menuItems}
-                            <div className="grid">
-                                <button className="btn bg-green-700 text-white">Log in</button>
-                                <button className="btn bg-blue-500 text-white">Sign up</button>
+                            <div className="grid gap-2">
+                                <Link href="/login" className="btn bg-green-700 text-white">Log in</Link>
+                                <Link href="/signup" className="btn bg-blue-500 text-white">Sign up</Link>
                             </div>
 
                         </ul>
@@ -39,8 +39,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end hidden lg:flex gap-2">
-                    <button className="btn bg-green-700 text-white">Log in</button>
-                    <button className="btn bg-blue-500 text-white">Sign up</button>
+                    <Link href="/login" className="btn bg-green-700 text-white">Log in</Link>
+                    <Link href="/signup" className="btn bg-blue-500 text-white">Sign up</Link>
                 </div>
             </div>
         </div>

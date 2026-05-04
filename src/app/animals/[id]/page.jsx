@@ -1,15 +1,31 @@
+"use client";
 import Link from 'next/link';
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const AnimalDetailsPage = async ({ params }) => {
-    const { id } = await params;
+const AnimalDetailsPage = ({ params }) => {
+    const [animal, setAnimal] = React.useState(null);
 
-    const res = await fetch('https://qurbani-hat-inky.vercel.app/data.json');
-    const data = await res.json();
+    React.useEffect(() => {
+        const fetchAnimal = async () => {
+            const { id } = await params;
+            const res = await fetch('https://qurbani-hat-inky.vercel.app/data.json');
+            const data = await res.json();
+            const foundAnimal = data.find(p => p.id == id);
+            setAnimal(foundAnimal);
+        };
+        fetchAnimal();
+    }, [params]);
 
-    const animal = data.find(p => p.id == id);
+    const handleBuyNow = () => {
+        toast.success('Item added to cart successfully!', {
+            position: "top-right",
+            autoClose: 3000,
+        });
+    };
 
-    console.log(animal);
+    if (!animal) return <div className="container mx-auto my-10">Loading...</div>;
+
 
 
     return (
@@ -28,7 +44,11 @@ const AnimalDetailsPage = async ({ params }) => {
                 <p className=' text-xl mt-2'>Price: <span className='font-bold'>{animal.price}</span></p>
                 <p className=' text-xl mt-2 font-bold'>Description:</p>
                 <p className=' text-xl mt-2'>{animal.description}</p>
-                <Link href="/checkout" className="btn bg-green-700 text-white w-full mt-10">Buy Now</Link>
+                <div>
+                    <button onClick={handleBuyNow} className="btn bg-green-700 text-white w-full mt-10">Buy Now</button>
+
+                   
+                </div>
             </div>
         </div>
     );
