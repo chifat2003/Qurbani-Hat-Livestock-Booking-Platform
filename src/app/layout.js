@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "animate.css";
 import Navbar from "./component/shared/navbar";
 import Footer from "./component/shared/footer";
 import { ToastContainer } from "react-toastify";

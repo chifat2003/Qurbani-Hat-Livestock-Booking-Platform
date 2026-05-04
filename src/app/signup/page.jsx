@@ -16,6 +16,7 @@ export default function SignUpPage() {
     const email = e.target.email.value;
     const password = e.target.password.value;
 
+    // Validate password
     if (password.length < 8) {
       setError("Password must be at least 8 characters");
       return;
