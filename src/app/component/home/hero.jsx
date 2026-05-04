@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const HeroHome = () => {
@@ -17,7 +18,7 @@ const HeroHome = () => {
                         <p className="mb-5 text-amber-200">
                            Fulfill your religious obligation with a trusted partner.
                         </p>
-                        <button className="btn bg-green-700 text-white">Get Started</button>
+                        <Link href="/animals" className="btn bg-green-700 text-white ml-4">View Animals</Link>
                     </div>
                 </div>
             </div>

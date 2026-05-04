@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Card = ({ items }) => {
@@ -22,7 +23,7 @@ const Card = ({ items }) => {
                         <p>{item.breed}</p>
                         <p>{item.price}</p>
                         <div className="card-actions">
-                            <button className="btn bg-green-700 text-white">Details</button>
+                            <Link href={`/animals/${item.id}`} className="btn bg-green-700 text-white">View Details</Link>
                         </div>
                     </div>
                 </div>
